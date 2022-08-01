@@ -1,0 +1,108 @@
+.app {
+  padding: 50px;
+}
+
+form {
+  width: 100%;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 30px;
+  width: 70%;
+}
+
+li {
+  margin-top: 15px;
+}
+
+li span.done {
+  text-decoration: line-through;
+  color: #757575;
+  padding: 1%;
+}
+
+.flexContainer {
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 1%;
+  background-color: linen;
+  width:40%;
+}
+
+.listContainer {
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 1%;
+  margin-bottom: 1%;
+  width:80%;
+}
+
+.completedBg {
+  background-color:lightgrey;
+}
+
+.pendingBg {
+  background-color:rgb(197, 253, 201);
+}
+
+.taskCompleted {
+  text-decoration: line-through;
+  color: #757575;
+  padding: 1%;
+}
+
+.taskNotCompleted {
+  padding: 1%;
+}
+
+.listBtnContainer {
+  margin-top: 2%;
+}
+
+@media screen and (max-width: 767px) {
+  form, ul {
+    width: 100%;
+  }
+}
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
